@@ -1,0 +1,179 @@
+﻿Installation de l'assembly 'C:\Users\Orlane\source\repos\WindowsService1\WindowsService1\bin\Debug\WindowsService1.exe'.
+Les paramètres affectés sont :
+   logtoconsole = 
+   logfile = C:\Users\Orlane\source\repos\WindowsService1\WindowsService1\bin\Debug\WindowsService1.InstallLog
+   assemblypath = C:\Users\Orlane\source\repos\WindowsService1\WindowsService1\bin\Debug\WindowsService1.exe
+Aucun programme d'installation public avec l'attribut RunInstallerAttribute.Yes n'a été trouvé dans l'assembly C:\Users\Orlane\source\repos\WindowsService1\WindowsService1\bin\Debug\WindowsService1.exe.
+Validation de l'assembly 'C:\Users\Orlane\source\repos\WindowsService1\WindowsService1\bin\Debug\WindowsService1.exe'.
+Les paramètres affectés sont :
+   logtoconsole = 
+   logfile = C:\Users\Orlane\source\repos\WindowsService1\WindowsService1\bin\Debug\WindowsService1.InstallLog
+   assemblypath = C:\Users\Orlane\source\repos\WindowsService1\WindowsService1\bin\Debug\WindowsService1.exe
+Aucun programme d'installation public avec l'attribut RunInstallerAttribute.Yes n'a été trouvé dans l'assembly C:\Users\Orlane\source\repos\WindowsService1\WindowsService1\bin\Debug\WindowsService1.exe.
+Suppression du fichier InstallState, car aucun programme d'installation n'est présent.
+Installation de l'assembly 'C:\Users\Orlane\source\repos\WindowsService1\WindowsService1\bin\Debug\WindowsService1.exe'.
+Les paramètres affectés sont :
+   logtoconsole = 
+   logfile = C:\Users\Orlane\source\repos\WindowsService1\WindowsService1\bin\Debug\WindowsService1.InstallLog
+   assemblypath = C:\Users\Orlane\source\repos\WindowsService1\WindowsService1\bin\Debug\WindowsService1.exe
+Installation du service DotNETService1 en cours...
+Le service DotNETService1 a été installé avec succès.
+Création d'une source EventLog DotNETService1 dans le journal Application...
+Restauration de l'assembly 'C:\Users\Orlane\source\repos\WindowsService1\WindowsService1\bin\Debug\WindowsService1.exe'.
+Les paramètres affectés sont :
+   logtoconsole = 
+   logfile = C:\Users\Orlane\source\repos\WindowsService1\WindowsService1\bin\Debug\WindowsService1.InstallLog
+   assemblypath = C:\Users\Orlane\source\repos\WindowsService1\WindowsService1\bin\Debug\WindowsService1.exe
+Restauration de l'état précédent du journal des événements pour la source DotNETService1.
+Le service DotNETService1 est en cours de suppression du système...
+Le service DotNETService1 a été retiré avec succès du système.
+Installation de l'assembly 'C:\Users\Orlane\source\repos\WindowsService1\WindowsService1\bin\Debug\WindowsService1.exe'.
+Les paramètres affectés sont :
+   logtoconsole = 
+   logfile = C:\Users\Orlane\source\repos\WindowsService1\WindowsService1\bin\Debug\WindowsService1.InstallLog
+   assemblypath = C:\Users\Orlane\source\repos\WindowsService1\WindowsService1\bin\Debug\WindowsService1.exe
+Installation du service DotNETService1 en cours...
+Le service DotNETService1 a été installé avec succès.
+Création d'une source EventLog DotNETService1 dans le journal Application...
+Restauration de l'assembly 'C:\Users\Orlane\source\repos\WindowsService1\WindowsService1\bin\Debug\WindowsService1.exe'.
+Les paramètres affectés sont :
+   logtoconsole = 
+   logfile = C:\Users\Orlane\source\repos\WindowsService1\WindowsService1\bin\Debug\WindowsService1.InstallLog
+   assemblypath = C:\Users\Orlane\source\repos\WindowsService1\WindowsService1\bin\Debug\WindowsService1.exe
+Restauration de l'état précédent du journal des événements pour la source DotNETService1.
+Le service DotNETService1 est en cours de suppression du système...
+Le service DotNETService1 a été retiré avec succès du système.
+Installation de l'assembly 'C:\Users\Orlane\source\repos\WindowsService1\WindowsService1\bin\Debug\WindowsService1.exe'.
+Les paramètres affectés sont :
+   logtoconsole = 
+   logfile = C:\Users\Orlane\source\repos\WindowsService1\WindowsService1\bin\Debug\WindowsService1.InstallLog
+   assemblypath = C:\Users\Orlane\source\repos\WindowsService1\WindowsService1\bin\Debug\WindowsService1.exe
+Installation du service DotNETService1 en cours...
+Le service DotNETService1 a été installé avec succès.
+Création d'une source EventLog DotNETService1 dans le journal Application...
+Restauration de l'assembly 'C:\Users\Orlane\source\repos\WindowsService1\WindowsService1\bin\Debug\WindowsService1.exe'.
+Les paramètres affectés sont :
+   logtoconsole = 
+   logfile = C:\Users\Orlane\source\repos\WindowsService1\WindowsService1\bin\Debug\WindowsService1.InstallLog
+   assemblypath = C:\Users\Orlane\source\repos\WindowsService1\WindowsService1\bin\Debug\WindowsService1.exe
+Restauration de l'état précédent du journal des événements pour la source DotNETService1.
+Le service DotNETService1 est en cours de suppression du système...
+Le service DotNETService1 a été retiré avec succès du système.
+Installation de l'assembly 'C:\Users\Orlane\source\repos\WindowsService1\WindowsService1\bin\Debug\WindowsService1.exe'.
+Les paramètres affectés sont :
+   logtoconsole = 
+   logfile = C:\Users\Orlane\source\repos\WindowsService1\WindowsService1\bin\Debug\WindowsService1.InstallLog
+   assemblypath = C:\Users\Orlane\source\repos\WindowsService1\WindowsService1\bin\Debug\WindowsService1.exe
+Restauration de l'assembly 'C:\Users\Orlane\source\repos\WindowsService1\WindowsService1\bin\Debug\WindowsService1.exe'.
+Les paramètres affectés sont :
+   logtoconsole = 
+   logfile = C:\Users\Orlane\source\repos\WindowsService1\WindowsService1\bin\Debug\WindowsService1.InstallLog
+   assemblypath = C:\Users\Orlane\source\repos\WindowsService1\WindowsService1\bin\Debug\WindowsService1.exe
+Installation de l'assembly 'C:\Users\Orlane\source\repos\WindowsService1\WindowsService1\bin\Debug\WindowsService1.exe'.
+Les paramètres affectés sont :
+   logtoconsole = 
+   logfile = C:\Users\Orlane\source\repos\WindowsService1\WindowsService1\bin\Debug\WindowsService1.InstallLog
+   assemblypath = C:\Users\Orlane\source\repos\WindowsService1\WindowsService1\bin\Debug\WindowsService1.exe
+Installation du service TEST en cours...
+Le service TEST a été installé avec succès.
+Création d'une source EventLog TEST dans le journal Application...
+Restauration de l'assembly 'C:\Users\Orlane\source\repos\WindowsService1\WindowsService1\bin\Debug\WindowsService1.exe'.
+Les paramètres affectés sont :
+   logtoconsole = 
+   logfile = C:\Users\Orlane\source\repos\WindowsService1\WindowsService1\bin\Debug\WindowsService1.InstallLog
+   assemblypath = C:\Users\Orlane\source\repos\WindowsService1\WindowsService1\bin\Debug\WindowsService1.exe
+Restauration de l'état précédent du journal des événements pour la source TEST.
+Le service TEST est en cours de suppression du système...
+Le service TEST a été retiré avec succès du système.
+Installation de l'assembly 'C:\Users\Orlane\source\repos\WindowsService1\WindowsService1\bin\Debug\WindowsService1.exe'.
+Les paramètres affectés sont :
+   logtoconsole = 
+   logfile = C:\Users\Orlane\source\repos\WindowsService1\WindowsService1\bin\Debug\WindowsService1.InstallLog
+   assemblypath = C:\Users\Orlane\source\repos\WindowsService1\WindowsService1\bin\Debug\WindowsService1.exe
+Installation du service TEST en cours...
+Le service TEST a été installé avec succès.
+Création d'une source EventLog TEST dans le journal Application...
+Restauration de l'assembly 'C:\Users\Orlane\source\repos\WindowsService1\WindowsService1\bin\Debug\WindowsService1.exe'.
+Les paramètres affectés sont :
+   logtoconsole = 
+   logfile = C:\Users\Orlane\source\repos\WindowsService1\WindowsService1\bin\Debug\WindowsService1.InstallLog
+   assemblypath = C:\Users\Orlane\source\repos\WindowsService1\WindowsService1\bin\Debug\WindowsService1.exe
+Restauration de l'état précédent du journal des événements pour la source TEST.
+Le service TEST est en cours de suppression du système...
+Le service TEST a été retiré avec succès du système.
+Installation de l'assembly 'C:\Users\Orlane\source\repos\WindowsService1\WindowsService1\bin\Debug\WindowsService1.exe'.
+Les paramètres affectés sont :
+   logtoconsole = 
+   logfile = C:\Users\Orlane\source\repos\WindowsService1\WindowsService1\bin\Debug\WindowsService1.InstallLog
+   assemblypath = C:\Users\Orlane\source\repos\WindowsService1\WindowsService1\bin\Debug\WindowsService1.exe
+Installation du service Service1 en cours...
+Le service Service1 a été installé avec succès.
+Création d'une source EventLog Service1 dans le journal Application...
+Validation de l'assembly 'C:\Users\Orlane\source\repos\WindowsService1\WindowsService1\bin\Debug\WindowsService1.exe'.
+Les paramètres affectés sont :
+   logtoconsole = 
+   logfile = C:\Users\Orlane\source\repos\WindowsService1\WindowsService1\bin\Debug\WindowsService1.InstallLog
+   assemblypath = C:\Users\Orlane\source\repos\WindowsService1\WindowsService1\bin\Debug\WindowsService1.exe
+Installation de l'assembly 'C:\Users\Orlane\source\repos\WindowsService1\WindowsService1\bin\Debug\WindowsService1.exe'.
+Les paramètres affectés sont :
+   logtoconsole = 
+   logfile = C:\Users\Orlane\source\repos\WindowsService1\WindowsService1\bin\Debug\WindowsService1.InstallLog
+   assemblypath = C:\Users\Orlane\source\repos\WindowsService1\WindowsService1\bin\Debug\WindowsService1.exe
+Installation du service Service1 en cours...
+Création d'une source EventLog Service1 dans le journal Application...
+Restauration de l'assembly 'C:\Users\Orlane\source\repos\WindowsService1\WindowsService1\bin\Debug\WindowsService1.exe'.
+Les paramètres affectés sont :
+   logtoconsole = 
+   logfile = C:\Users\Orlane\source\repos\WindowsService1\WindowsService1\bin\Debug\WindowsService1.InstallLog
+   assemblypath = C:\Users\Orlane\source\repos\WindowsService1\WindowsService1\bin\Debug\WindowsService1.exe
+Restauration de l'état précédent du journal des événements pour la source Service1.
+Désinstallation de l'assembly 'C:\Users\Orlane\source\repos\WindowsService1\WindowsService1\bin\Debug\WindowsService1.exe'.
+Les paramètres affectés sont :
+   logtoconsole = 
+   logfile = C:\Users\Orlane\source\repos\WindowsService1\WindowsService1\bin\Debug\WindowsService1.InstallLog
+   assemblypath = C:\Users\Orlane\source\repos\WindowsService1\WindowsService1\bin\Debug\WindowsService1.exe
+Suppression de la source EventLog Service1.
+Le service Service1 est en cours de suppression du système...
+Le service Service1 a été retiré avec succès du système.
+Installation de l'assembly 'C:\Users\Orlane\source\repos\WindowsService1\WindowsService1\bin\Debug\WindowsService1.exe'.
+Les paramètres affectés sont :
+   logtoconsole = 
+   logfile = C:\Users\Orlane\source\repos\WindowsService1\WindowsService1\bin\Debug\WindowsService1.InstallLog
+   assemblypath = C:\Users\Orlane\source\repos\WindowsService1\WindowsService1\bin\Debug\WindowsService1.exe
+Installation du service Service1 en cours...
+Le service Service1 a été installé avec succès.
+Création d'une source EventLog Service1 dans le journal Application...
+Validation de l'assembly 'C:\Users\Orlane\source\repos\WindowsService1\WindowsService1\bin\Debug\WindowsService1.exe'.
+Les paramètres affectés sont :
+   logtoconsole = 
+   logfile = C:\Users\Orlane\source\repos\WindowsService1\WindowsService1\bin\Debug\WindowsService1.InstallLog
+   assemblypath = C:\Users\Orlane\source\repos\WindowsService1\WindowsService1\bin\Debug\WindowsService1.exe
+Désinstallation de l'assembly 'C:\Users\Orlane\source\repos\WindowsService1\WindowsService1\bin\Debug\WindowsService1.exe'.
+Les paramètres affectés sont :
+   logtoconsole = 
+   logfile = C:\Users\Orlane\source\repos\WindowsService1\WindowsService1\bin\Debug\WindowsService1.InstallLog
+   assemblypath = C:\Users\Orlane\source\repos\WindowsService1\WindowsService1\bin\Debug\WindowsService1.exe
+Suppression de la source EventLog Service1.
+Le service Service1 est en cours de suppression du système...
+Le service Service1 a été retiré avec succès du système.
+Installation de l'assembly 'C:\Users\Orlane\source\repos\WindowsService1\WindowsService1\bin\Debug\WindowsService1.exe'.
+Les paramètres affectés sont :
+   logtoconsole = 
+   logfile = C:\Users\Orlane\source\repos\WindowsService1\WindowsService1\bin\Debug\WindowsService1.InstallLog
+   assemblypath = C:\Users\Orlane\source\repos\WindowsService1\WindowsService1\bin\Debug\WindowsService1.exe
+Installation du service Service1 en cours...
+Le service Service1 a été installé avec succès.
+Création d'une source EventLog Service1 dans le journal Application...
+Validation de l'assembly 'C:\Users\Orlane\source\repos\WindowsService1\WindowsService1\bin\Debug\WindowsService1.exe'.
+Les paramètres affectés sont :
+   logtoconsole = 
+   logfile = C:\Users\Orlane\source\repos\WindowsService1\WindowsService1\bin\Debug\WindowsService1.InstallLog
+   assemblypath = C:\Users\Orlane\source\repos\WindowsService1\WindowsService1\bin\Debug\WindowsService1.exe
+Désinstallation de l'assembly 'C:\Users\Orlane\source\repos\WindowsService1\WindowsService1\bin\Debug\WindowsService1.exe'.
+Les paramètres affectés sont :
+   logtoconsole = 
+   logfile = C:\Users\Orlane\source\repos\WindowsService1\WindowsService1\bin\Debug\WindowsService1.InstallLog
+   assemblypath = C:\Users\Orlane\source\repos\WindowsService1\WindowsService1\bin\Debug\WindowsService1.exe
+Suppression de la source EventLog Service1.
+Le service Service1 est en cours de suppression du système...
+Le service Service1 a été retiré avec succès du système.
