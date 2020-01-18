@@ -1,11 +1,6 @@
 C:\Users\Orlane\source\repos\WindowsService1\WindowsService1\bin\Debug\WindowsService1.exe.config
 C:\Users\Orlane\source\repos\WindowsService1\WindowsService1\bin\Debug\WindowsService1.exe
 C:\Users\Orlane\source\repos\WindowsService1\WindowsService1\bin\Debug\WindowsService1.pdb
-C:\Users\Orlane\source\repos\WindowsService1\WindowsService1\obj\Debug\WindowsService1.exe
-C:\Users\Orlane\source\repos\WindowsService1\WindowsService1\obj\Debug\WindowsService1.pdb
-C:\Users\Orlane\source\repos\WindowsService1\WindowsService1\obj\Debug\WindowsService1.Service1.resources
-C:\Users\Orlane\source\repos\WindowsService1\WindowsService1\obj\Debug\WindowsService1.csproj.GenerateResource.cache
-C:\Users\Orlane\source\repos\WindowsService1\WindowsService1\obj\Debug\WindowsService1.ProjectInstaller.resources
 C:\Users\Orlane\source\repos\WindowsService1\WindowsService1\bin\Debug\System.Configuration.ConfigurationManager.dll
 C:\Users\Orlane\source\repos\WindowsService1\WindowsService1\bin\Debug\System.Security.AccessControl.dll
 C:\Users\Orlane\source\repos\WindowsService1\WindowsService1\bin\Debug\System.Security.Permissions.dll
@@ -14,4 +9,9 @@ C:\Users\Orlane\source\repos\WindowsService1\WindowsService1\bin\Debug\System.Co
 C:\Users\Orlane\source\repos\WindowsService1\WindowsService1\bin\Debug\System.Security.AccessControl.xml
 C:\Users\Orlane\source\repos\WindowsService1\WindowsService1\bin\Debug\System.Security.Permissions.xml
 C:\Users\Orlane\source\repos\WindowsService1\WindowsService1\bin\Debug\System.Security.Principal.Windows.xml
+C:\Users\Orlane\source\repos\WindowsService1\WindowsService1\obj\Debug\WindowsService1.ProjectInstaller.resources
+C:\Users\Orlane\source\repos\WindowsService1\WindowsService1\obj\Debug\WindowsService1.Service1.resources
+C:\Users\Orlane\source\repos\WindowsService1\WindowsService1\obj\Debug\WindowsService1.csproj.GenerateResource.cache
 C:\Users\Orlane\source\repos\WindowsService1\WindowsService1\obj\Debug\WindowsService1.csproj.CopyComplete
+C:\Users\Orlane\source\repos\WindowsService1\WindowsService1\obj\Debug\WindowsService1.exe
+C:\Users\Orlane\source\repos\WindowsService1\WindowsService1\obj\Debug\WindowsService1.pdb
