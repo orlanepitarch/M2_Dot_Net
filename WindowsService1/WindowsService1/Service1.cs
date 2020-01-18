@@ -64,7 +64,7 @@ namespace WindowsService1
 
         public void OnTimer(object sender, System.Timers.ElapsedEventArgs args)
         {
-            eventLog1.WriteEntry("Dans la méthode onTimer");
+            
             if (this.counter<1)
             {
                 LectureConfiguration();           
@@ -91,12 +91,10 @@ namespace WindowsService1
                         //Change le jour si l'utilisateur change de jour. 
                         if (DateTime.Now.DayOfWeek.ToString() != this.date)
                         {
-                            eventLog1.WriteEntry(DateTime.Now.DayOfWeek.ToString(), EventLogEntryType.Information, eventId++);
                             changeTps(DateTime.Now.DayOfWeek.ToString(), process.ProcessName);
                             resetTpsArret(process.ProcessName);
                             this.date = DateTime.Now.DayOfWeek.ToString();
                         }
-                        eventLog1.WriteEntry(process.ProcessName, EventLogEntryType.Information, eventId++);
                         
                         try
                         {
@@ -107,7 +105,6 @@ namespace WindowsService1
 
                             // Initialiser la data source avec le résultat de la requête.
                             int a = GetData(this.ConnectionString, requete);
-                            eventLog1.WriteEntry(a.ToString(), EventLogEntryType.Information, eventId++);
 
                             if (a == 1 || a==0)
                             {
@@ -182,10 +179,6 @@ namespace WindowsService1
         {
             int tps = isTempsActif(jourAng, nomApp);
 
-            eventLog1.WriteEntry("bbbbbbb   " + tps, EventLogEntryType.Information, eventId++);
-
-            eventLog1.WriteEntry(tps.ToString(), EventLogEntryType.Information, eventId++);
-
             string request = "UPDATE ApplicationControlee SET Tps_exe_restant = " + tps + " WHERE Id_app = (SELECT id_app FROM ApplicationControlable WHERE Nom_app = '" + nomApp + "')";
             SqlConnection AppSmartConnection = new SqlConnection(this.ConnectionString);
 
@@ -226,8 +219,6 @@ namespace WindowsService1
                     jourFr = "Dimanche";
                     break;
             }
-
-            eventLog1.WriteEntry(jourFr, EventLogEntryType.Information, eventId++);
 
             string requete = "SELECT " + jourFr + " FROM TempsDefini tps WHERE tps.Id_app = (SELECT Id_app FROM ApplicationControlable WHERE Nom_app = '" + nomApp + "') AND tps." + jourFr + "_actif = 1";
             // Création d'un objet connexion en se basant sur la chaine de connexion.
@@ -311,7 +302,6 @@ namespace WindowsService1
         private void setTpsArret(String name)
         {
             //Met la colonne arret concernant l'application stoppée au dateTime du moment de l'arret (moment actuel):
-            eventLog1.WriteEntry("new DT "+ new DateTime(1754, 1, 1, 0, 0, 0).ToString());
             if (getTpsArret(name) == new DateTime(1754,1,1,0,0,0))
             {
                 string requete = "UPDATE ApplicationControlee SET Tps_limite_atteinte = '" + DateTime.Now + "' WHERE Id_app = (SELECT id_app FROM ApplicationControlable WHERE Nom_app = '" + name + "')";
@@ -340,7 +330,6 @@ namespace WindowsService1
             AppSmartConnection.Open();
             DateTime dt = (DateTime) command.ExecuteScalar();
             AppSmartConnection.Close();
-            eventLog1.WriteEntry("DT BDD " + dt.ToString());
             return dt;
         }
 
@@ -351,7 +340,6 @@ namespace WindowsService1
             DateTime tpsStop = getTpsArret(nomApp);
             TimeSpan intervalle = DateTime.Now - tpsStop;
 
-            eventLog1.WriteEntry("check end block " + intervalle.TotalDays);
 
             //1440 minutes = 1 journée, permet de ne pas reset le temps si tpsStop = valeur par defaut = 01/01/1754
             if (intervalle.Minutes > dureeBlocage && intervalle.TotalDays < 1)
@@ -396,13 +384,11 @@ namespace WindowsService1
         private void updateHistory(String nomApp, String jourAng)
         {
             int tempsMax = isTempsActif(jourAng, nomApp);
-            eventLog1.WriteEntry(tempsMax.ToString(), EventLogEntryType.Information, eventId++);
 
             int q = -1;
 
             //Teste si la date existe dans la BDD :
             string requete = "Select Temps_total FROM Historique WHERE Id_app = (SELECT id_app FROM ApplicationControlable WHERE Nom_app = '" + nomApp + "') AND Date='"+DateTime.Now.ToString("d") + "'";
-            eventLog1.WriteEntry(requete, EventLogEntryType.Information, eventId++);
 
             // Création d'un objet connexion en se basant sur la chaine de connexion.
             SqlConnection AppSmartConnection = new SqlConnection(this.ConnectionString);
@@ -417,23 +403,21 @@ namespace WindowsService1
             catch { }
             AppSmartConnection.Close();
 
-            eventLog1.WriteEntry("vvvvv "+q, EventLogEntryType.Information, eventId++);
             //récupération de l'id de l'application :
             requete = "Select Id_app FROM ApplicationControlable WHERE Nom_app = '" + nomApp + "'";
-            eventLog1.WriteEntry(requete, EventLogEntryType.Information, eventId++);
             SqlConnection AppSmartCo = new SqlConnection(this.ConnectionString);
             SqlCommand newcommand = new SqlCommand(requete, AppSmartCo);
             AppSmartCo.Open();
             int id = (int)newcommand.ExecuteScalar();
             AppSmartCo.Close();
-            eventLog1.WriteEntry(id.ToString(), EventLogEntryType.Information, eventId++);
+
             //récupération du temps d'éxécution de l'appli :
             requete = "Select Tps_exe_restant FROM ApplicationControlee WHERE Id_app = " + id;
             SqlCommand commande = new SqlCommand(requete, AppSmartCo);
             AppSmartCo.Open();
             int tpsExeRestant = (int)commande.ExecuteScalar();
             AppSmartCo.Close();
-            eventLog1.WriteEntry(tpsExeRestant.ToString(), EventLogEntryType.Information, eventId++);
+
             if (tpsExeRestant == -1)
             {
                 tpsExeRestant = tempsMax + 1;
@@ -442,10 +426,8 @@ namespace WindowsService1
             if (q==-1)
             {
                 int tps = tempsMax - tpsExeRestant + 1;
-                eventLog1.WriteEntry("CUL NU "+ tps, EventLogEntryType.Information, eventId++);
                 //ajoute la ligne avec le temps passé :
                 requete = "INSERT INTO Historique (Id_app,Date,Temps_total) values (@id,@date,@Temps_Total)";
-                eventLog1.WriteEntry(requete, EventLogEntryType.Information, eventId++);
                 SqlCommand command2 = new SqlCommand(requete, AppSmartCo);
                 command2.Parameters.AddWithValue("@id", id);
                 command2.Parameters.AddWithValue("@date", DateTime.Now.Date.ToString("d"));
@@ -460,10 +442,9 @@ namespace WindowsService1
             {
                 int tps = tempsMax - tpsExeRestant - 1;
 
-                eventLog1.WriteEntry("CUL PA NU " + tps, EventLogEntryType.Information, eventId++);
                 //ajout du temps passé :
                 requete = "UPDATE Historique SET Temps_total = Temps_total + " + tps  + " WHERE Id_app = "+id+" AND Date = '"+DateTime.Now.Date.ToString("d") + "'";
-                eventLog1.WriteEntry(requete, EventLogEntryType.Information, eventId++);
+
 
                 // Création d'un objet commande basé sur la requête reçue en paramètre.
                 SqlCommand commandUpdate = new SqlCommand(requete, AppSmartConnection);
