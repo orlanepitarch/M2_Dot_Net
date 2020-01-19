@@ -20,7 +20,6 @@ namespace WindowsService1
         private string ConnectionString;
         private List<String> appControlled;
         private int counter;
-        private DataTable table;
         private String date;
 
         public Service1()
@@ -143,7 +142,6 @@ namespace WindowsService1
         //Défini la liste des noms des applications controllées en fonction de l'état du controle :
         private void getApplicationControlled(string conn)
         {
-            this.table = new DataTable();
             this.appControlled = new List<string>();
 
             SqlConnection AppSmartConnection = new SqlConnection(conn);
@@ -152,11 +150,6 @@ namespace WindowsService1
             // Création d'un objet commande basé sur la requête reçue en paramètre.
             SqlCommand command = new SqlCommand(request, AppSmartConnection);
 
-            SqlDataAdapter adapter = new SqlDataAdapter();
-            adapter.SelectCommand = command;
-
-            // Remplissage de la DataTable avec le résultat de la requête.
-            adapter.Fill(this.table);
 
             SqlDataReader reader = command.ExecuteReader();
             if (reader.HasRows)
